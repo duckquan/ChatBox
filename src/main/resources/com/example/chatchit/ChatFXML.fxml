@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.chatchit.ChatController">
+   <children>
+      <Line endX="285.0" layoutX="115.0" layoutY="82.0" startX="-115.0" stroke="#282525" />
+      <Line endX="285.0" layoutX="115.0" layoutY="538.0" startX="-115.0" />
+      <ImageView fitHeight="36.0" fitWidth="34.0" layoutX="296.0" layoutY="21.0" onMouseClicked="#intoCall" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Pic/icons8-call-50.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="320.0" layoutY="134.0" prefHeight="43.0" prefWidth="43.0" style="-fx-background-color: GRAY;" text="Hello" />
+      <Label alignment="CENTER" layoutX="268.0" layoutY="182.0" prefHeight="43.0" prefWidth="95.0" style="-fx-background-color: GRAY;" text="How are you?" />
+      <Label alignment="CENTER" layoutX="19.0" layoutY="229.0" prefHeight="42.0" prefWidth="121.0" style="-fx-background-color: PINK;" text="I'm fine thank you" />
+      <Label alignment="CENTER" layoutX="19.0" layoutY="292.0" prefHeight="42.0" prefWidth="66.0" style="-fx-background-color: PINK;" text="And you?" />
+      <Label alignment="CENTER" layoutX="231.0" layoutY="348.0" prefHeight="43.0" prefWidth="132.0" style="-fx-background-color: GRAY;" text="I'm so good right now!" />
+      <ImageView fitHeight="43.0" fitWidth="43.0" layoutX="10.0" layoutY="552.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Pic/sendPic.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="43.0" layoutX="349.0" layoutY="546.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Pic/sendMessage.PNG" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="297.0" layoutY="407.0" prefHeight="43.0" prefWidth="66.0" style="-fx-background-color: GRAY;" text="Good bye!" />
+      <Label alignment="CENTER" layoutX="18.0" layoutY="465.0" prefHeight="43.0" prefWidth="53.0" style="-fx-background-color: PINK;" text="Byeeee!" />
+      <ImageView fitHeight="42.0" fitWidth="53.0" layoutX="60.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Pic/z4959138660830_029a48cfc384c50484229a8d8f42a7e2.jpg" />
+         </image>
+      </ImageView>
+      <TextField layoutX="71.0" layoutY="540.0" prefHeight="53.0" prefWidth="269.0" />
+      <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="346.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Pic/icons8-video-call-30.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="15.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Pic/icons8-back-50.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="118.0" layoutY="17.0" prefHeight="42.0" prefWidth="132.0" text="Alpenliebe" />
+   </children>
+</AnchorPane>
